@@ -7,5 +7,8 @@ gem "awesome_print"
 
 group :development do
 gem "pry"
-gem "rspec"
+end
+
+group :test do
+  gem "rspec"
 end
